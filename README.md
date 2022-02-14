@@ -21,10 +21,10 @@ by looking the correlation of traveling restrictions relative to the number of C
 My unit of analysis will primarly focus on domestic travels in the US, and if time permits I will explore international travels from other countries outside of the US. Therefore, I will be collecting the datasets from the reliable sources like Centers for Disease Control and Prevention (CDC), John Hopkins University Center for Systems Science and Engineering (JHU CSSE), and World Health Organization (WHO) for global COVID-19 data as well as traveling datasets from The Humanitarian Data Exchange data repository. 
 
 ## Datasets
-![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/dataset.PNG?raw=true "Data Sources")
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/data_sources.PNG?raw=true "Data Sources")
 
 
 ## Techniques/models to be used
-I plan to develop visualizations that show the relationships between travel restrictions and number of COVID-19 infections, deaths, recovery cases. I will implement some form of machine learning unsupervised models like Clustering to group data points that share same characteristics related to COVID-19 cases attributes.
+I plan to develop visualizations that show the relationships with each of the travel restrictions and number of COVID-19 infections, deaths, recovery cases. I will implement some form of machine learning unsupervised models like Clustering to group data points that share same characteristics related to COVID-19 cases attributes.
 
 

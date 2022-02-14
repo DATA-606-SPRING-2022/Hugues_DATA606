@@ -14,14 +14,14 @@ by looking the correlation of traveling restrictions relative to the number of C
 
 1. Have travel restrictions been effective in preventing COVID-19?
 2. Have vaccinations among the travelers played a significant roles in reducing the virus transmission 
-3. Has travel ban for some countries influenced significantly COVID-19 infections and deaths?
+3. Has travel bans for some countries influenced significantly COVID-19 infections and deaths?
 
 ## Unit of Analysis
 
 My unit of analysis will primarly focus on domestic travels in the US, and if time permits I will explore international travels from other countries outside of the US. Therefore, I will be collecting the datasets from the reliable sources like Centers for Disease Control and Prevention (CDC), John Hopkins University Center for Systems Science and Engineering (JHU CSSE), and World Health Organization (WHO) for global COVID-19 data as well as traveling datasets from The Humanitarian Data Exchange data repository. 
 
 ## Datasets
-![Data Sources](Images/dataset.png "Data Sources")
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/dataset.PNG?raw=true "Data Sources")
 
 
 ## Techniques/models to be used

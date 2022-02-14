@@ -1,12 +1,12 @@
 # DATA 606 Capstone Project
 
-# Project Proposal : The influence of travel restrictions on Coronavirus diseases
+# Project Proposal : The influence of travel restrictions on COVID
 
 ## Introduction 
 
 Since March 2020, COVID-19 was declared as a global pandemic. As of today, the COVID-19 infections are over 400 millions cases, and the death cases approches near 8 millions worldwide. Several countries have imposed travel restrictions in order to minimize the coronavirus disease infections.There was a period where some countries have suspended flights, but later after the lift of lockdowns, traveling has continued under certain restrictions to reduce the virus transmission. Major health organizations have taken some measures to prevent the spread of the virus, such as mandatory vaccines, negative testing results and masks wearing required for all the passengers. To date, there have been over 10 millions vaccines doses successfully administred to the population worldwide. 
 <p>
-My goal is to perform an analysis of the influence of travel restrictions on Coronavirus diseases
+My goal is to perform an analysis of the influence of travel restrictions on Coronavirus disease
 by looking the correlation of traveling restrictions relative to the number of COVID infections, deaths, recovery cases.
 </p>
 

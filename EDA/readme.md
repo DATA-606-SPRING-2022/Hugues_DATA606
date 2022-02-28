@@ -15,6 +15,7 @@ This dataset has 238 observations and 12 columns.
 <p>
 The columns include: name of the countries, WHO geographical regions, both COVID-19 cases and dealths cummulative total newly reported in the last 7 days as well as the last 24 hours per population.
 </p>
+
 # 3. Vaccination data
 This dataset has 228 observations and 14 columns.
 <p>

@@ -1,6 +1,6 @@
 # DATA 606 Capstone Project
 
-# Project Proposal : The influence of travel restrictions on COVID
+# The influence of travel restrictions on COVID-19
 
 ## Introduction 
 
@@ -13,7 +13,7 @@ by looking the correlation of traveling restrictions relative to the number of C
 ## Hypothesis / Research Questions
 
 1. Have travel restrictions been effective in preventing COVID-19?
-2. Have vaccinations among the travelers played a significant roles in reducing the virus transmission 
+2. Have vaccinations among the travelers played a significant roles in reducing the virus transmission? 
 3. Has travel bans for some countries influenced significantly COVID-19 infections and deaths?
 
 ## Unit of Analysis

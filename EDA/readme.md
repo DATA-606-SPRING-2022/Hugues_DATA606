@@ -21,3 +21,9 @@ This dataset has 228 observations and 14 columns.
 <p>
 The columns include: countries and their corresponding ISO codes, WHO geographical regions, total number of people fully vaccinated, and those received first dosage. The data also include the sources of the reported information.
 </p>
+
+# Heatmaps for correlation 
+With the global cases data:
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Globalcases.PNG?raw=true "Data Sources")
+With the vaccination data:
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Vaccination.PNG?raw=true "Data Sources")

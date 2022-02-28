@@ -24,6 +24,9 @@ The columns include: countries and their corresponding ISO codes, WHO geographic
 
 # Heatmaps for correlation 
 With the global cases data:
-![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Globalcases.PNG?raw=true "Data Sources")
+
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Globalcases.PNG?raw=true "Global Cases")
+
 With the vaccination data:
-![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Vaccination.PNG?raw=true "Data Sources")
+
+![Alt text](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Vaccination.PNG?raw=true "Vaccination")

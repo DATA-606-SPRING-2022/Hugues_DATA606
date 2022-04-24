@@ -1,6 +1,6 @@
 # DATA 606 Capstone Project Report
 
-## Analysis of the ffectiveness of the COVID-19 policy responses using Machine Learning
+## Effectiveness of the COVID-19 policy responses using Machine Learning
 
 by Hugues Nelson Iradukunda
 

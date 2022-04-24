@@ -57,6 +57,7 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 ### Exploratory Data Analysis (EDA)
 
 #### Data correlation 
+![Heatmap](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Heatmap.png?raw=true)
 
 #### Trends of top 10 countries by confirmed cases
 

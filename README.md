@@ -93,19 +93,17 @@ According to the OLS Model results:
 <br>
 The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
 
-#### Linear Regression Model Pipeline
-With sklearn libaries, I performed:
-- a training and testing set split of 80/20. 
-- data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. 
-
-The pipeline involves the linear regression model.
-<br>
-The R-squared for both training and testing sets are about 84%. Thus, there is no overfitting in our machine learning model.
+#### Linear Regression Model
+- With sklearn libaries, I performed training and testing sets split of 80/20. 
+- Data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. 
+- The pipeline involves the linear regression model.
+- The R-squared for both training and testing sets are about 84%. 
+- No identication of model overfitting.
 
 #### Ridge Regression for model regularization
 ![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)
-<br>
-Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
+
+- Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
 
 ### Interpretations and Conclusions
 Based on the findings of this study, we can return to the hypothesis questions:

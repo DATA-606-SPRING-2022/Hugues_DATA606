@@ -28,8 +28,7 @@ This study will focus on answering the following questions:
 
 ### Unit of Analysis
 
-- Overall, we have 186 countries worldwide in this dataset.
-- The countries are represented in the data by their names.
+- Overall, we have 186 countries worldwide in this dataset. Each country is represented in the data by its name.
 
 
 ### Dataset Description
@@ -40,11 +39,11 @@ This study will focus on answering the following questions:
 - The OxCGRT systematically collects information on several different common policy responses governments have taken, records these policies on a scale to reflect the extent of government action, and aggregates these scores into a suite of policy indices.
 The different COVID-19 policy responses are coded into 21 indicators, such as public places closures, travel restrictions, testing and vaccinations.
 Those COVID-19 policy responses are into grouped five categories:
-- C - containment and closure policies
-- E - economic policies
-- H - health system policies
-- V - vaccination policies
-- M - miscellaneous indicator
+1. C - containment and closure policies
+2. E - economic policies
+3. H - health system policies
+4. V - vaccination policies
+5. M - miscellaneous indicator
 
 - There is a strigency index where a higher score indicates a stricter government response (i.e. 100 = strictest response) based on policy indices. 
 However, the stringency index cannot say whether a government's policy has been implemented effectively.
@@ -66,9 +65,9 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 #### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
 ![Table](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
 <br>
-A higher position in stringency index does not necessarily mean that a country's response is better in fighting with COVID than others lower on the stringency index. It just indicates how strict a country is in terms of policy response.
-<br>
-Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic.
+- A higher position in stringency index does not necessarily mean that a country's response is better in fighting with COVID than others lower on the stringency index. It just indicates how strict a country is in terms of policy response.
+
+- Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic.
 
 ### Machine Learning Model
 

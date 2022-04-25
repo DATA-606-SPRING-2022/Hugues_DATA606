@@ -9,7 +9,7 @@ by Hugues Nelson Iradukunda
 This research investigates the influence that governmental policy responses have had on the COVID-19 pandemic around the world.
 
 Since March 2020, Coronavirus disease (COVID-19) was declared as a global pandemic.
-As of today, the COVID-19 infections are over 500 millions cases and the death toll is about 6 millions worldwide.
+As of today, the COVID-19 infections are over a half billion cases and the death toll is about 6 millions worldwide.
 Several restrictions and policies were imposed by countries to minimize the infections and deaths.
 
 Being able to understand drivers and predict Coronavirus disease confirmed cases can be used in policy and decisions making regarding the restrictions or lockdown measures. 
@@ -80,7 +80,7 @@ I used machine learning regression models. The target variable is ConfirmedCases
 <br>
 According to the OLS Model results:
 
-- Overall, OLS Model  𝑅2  is 0.843, so our model is capturing 84% of the variance in ConfirmedCases.
+- Overall, OLS Model  𝑅-ssquared  is 0.843, so our model is capturing 84% of the variance in ConfirmedCases.
 - The attributes used in this dataset are statistically significant except H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs since they have a greater than the usual significance level 0.05.
 - ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people are the main strongest drivers of ConfirmedCases predictions because of their high t-statistics.
 
@@ -92,19 +92,29 @@ According to the OLS Model results:
 The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
 
 #### Linear Regression Model Pipeline
-With sklearn libaries, I performed a training and testing set split of 80/20. Then, the data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables.The pipeline involves the linear regression model.
+With sklearn libaries, I performed a training and testing set split of 80/20. Then, the data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. The pipeline involves the linear regression model.
 <br>
-The $R^2$ for both training and testing sets are about 84%. Thus, there is no overfitting in our machine learning model.
+The R-squared for both training and testing sets are about 84%. Thus, there is no overfitting in our machine learning model.
 
 #### Ridge Regression for model regularization
 ![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)
-
+<br>
+Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
 
 ### Interpretations and Conclusions
 
 1. Have policy responses contributed in preventing COVID-19 over the past 2 years?
+<br>
+Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
+
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?
+<br>
+Ordinary Least-Squares (OLS) regression model used for this project show that most the attributes or columns from this dataset are statistically significant, except  
+H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs.
+
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?
+<br>
+The COVID-19 policy responses drivers in predicting the confirmed cases are: ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people.
 
 ### References
 

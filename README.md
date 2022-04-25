@@ -33,8 +33,7 @@ Overall, we have 186 countries worldwide in this dataset. Each country is repres
 
 ### Dataset Description
 
-- The timeserie data being explored comes from [COVID-19 GOVERNMENT RESPONSE TRACKER]
-(https://github.com/OxCGRT/covid-policy-tracker) presented by the Oxford Covid-19 Government Response Tracker (OxCGRT). 
+- The timeserie data being explored comes from [COVID-19 GOVERNMENT RESPONSE TRACKER](https://github.com/OxCGRT/covid-policy-tracker) presented by the Oxford Covid-19 Government Response Tracker (OxCGRT). 
 The OxCGRT systematically collects information on several different common policy responses governments have taken, records these policies on a scale to reflect the extent of government action, and aggregates these scores into a suite of policy indices.
 The different COVID-19 policy responses are coded into 21 indicators, such as public places closures, travel restrictions, testing and vaccinations.
 Those COVID-19 policy responses are into grouped five categories:

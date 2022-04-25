@@ -73,7 +73,7 @@ Some of policy responses contributed in minimizing the number of coronavirus dis
 
 ### Machine Learning Model
 
-I used machine learning regression models. The target variable is ConfirmedCases. And other remaining attributes are considered as inputs variables.
+The target variable is ConfirmedCases. And other remaining attributes are considered as inputs variables for our machine learning regression models.
 
 #### Ordinary Least-Squares (OLS) regression model
 ![OLS](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/OLS.png?raw=true)

@@ -39,11 +39,11 @@ This study will focus on answering the following questions:
 - The OxCGRT systematically collects information on several different common policy responses governments have taken, records these policies on a scale to reflect the extent of government action, and aggregates these scores into a suite of policy indices.
 The different COVID-19 policy responses are coded into 21 indicators, such as public places closures, travel restrictions, testing and vaccinations.
 Those COVID-19 policy responses are into grouped five categories:
-1. C - containment and closure policies
-2. E - economic policies
-3. H - health system policies
-4. V - vaccination policies
-5. M - miscellaneous indicator
+C: containment and closure policies
+E: economic policies
+H: health system policies
+V: vaccination policies
+M: miscellaneous indicator
 
 - There is a strigency index where a higher score indicates a stricter government response (i.e. 100 = strictest response) based on policy indices. 
 However, the stringency index cannot say whether a government's policy has been implemented effectively.

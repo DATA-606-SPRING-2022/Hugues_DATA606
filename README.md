@@ -124,4 +124,4 @@ The COVID-19 policy responses drivers in predicting the confirmed cases are: Con
 1. https://github.com/OxCGRT/covid-policy-tracker
 2. https://github.com/CSSEGISandData/COVID-19
 3. https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker
-4. [Python Machine Learning, 3rd Edition, Raschka and Mirjalili]. (https://www.packtpub.com/product/python-machine-learning-third-edition/9781789955750)
+4. [Python Machine Learning, 3rd Edition, Raschka and Mirjalili](https://www.packtpub.com/product/python-machine-learning-third-edition/9781789955750).

@@ -68,8 +68,7 @@ A higher position in stringency index does not necessarily mean that a country's
 
 
 #### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
-![Table]
-(https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
+![Table](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
 
 ### Machine Learning Model
 
@@ -102,7 +101,7 @@ The R-squared for both training and testing sets are about 84%. Thus, there is n
 Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
 
 ### Interpretations and Conclusions
-
+<br>
 1. Have policy responses contributed in preventing COVID-19 over the past 2 years?
 <br>
 Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.

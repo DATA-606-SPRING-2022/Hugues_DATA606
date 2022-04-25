@@ -60,19 +60,22 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 ![Heatmap](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Heatmap.png?raw=true)
 
 #### Trends of top 10 countries by confirmed cases
-
+![Trends1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCases.png?raw=true)
 #### Trends of top 10 countries with high confirmed cases and their given stringency index
+![Trends2](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10StringencyIndex.png?raw=true)
 
 #### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
-
+![Table]
+(https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
 
 ### Machine Learning Model
 
-#### Preprocessing data methods
-
 #### Ordinary Least-Squares (OLS) regression model
+![OLS](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/OLS.png?raw=true)
+
 
 #### Residuals
+![Residuals1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/EvaluateResiduals.png?raw=true)
 
 #### Linear Regression Model Pipeline
 

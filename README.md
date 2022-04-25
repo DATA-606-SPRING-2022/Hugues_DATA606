@@ -102,22 +102,25 @@ The R-squared for both training and testing sets are about 84%. Thus, there is n
 Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
 
 ### Interpretations and Conclusions
-Returning to the hypothesis questions the following findings surfaced from this study:
+Based on the finding of this study, we can return to the hypothesis questions:
 <p>
 1. Have policy responses contributed in preventing COVID-19 over the past 2 years?
 Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
 </p>
+<p>
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?
 <br>
 Ordinary Least-Squares (OLS) regression model used for this project show that most the attributes or columns from this dataset are statistically significant, except  
 H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs.
-<br>
+</p>
+<p>
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?
 <br>
 The COVID-19 policy responses drivers in predicting the confirmed cases are: ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people.
+</p>
 
 ### References
-
 1. https://github.com/OxCGRT/covid-policy-tracker
 2. https://github.com/CSSEGISandData/COVID-19
 3. https://www.bsg.ox.ac.uk/research/research-projects/covid-19-government-response-tracker
+4. [Python Machine Learning, 3rd Edition, Raschka and Mirjalili]. (https://www.packtpub.com/product/python-machine-learning-third-edition/9781789955750)

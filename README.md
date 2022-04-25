@@ -94,7 +94,11 @@ According to the OLS Model results:
 The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
 
 #### Linear Regression Model Pipeline
-With sklearn libaries, I performed a training and testing set split of 80/20. Then, the data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. The pipeline involves the linear regression model.
+With sklearn libaries, I performed:
+- a training and testing set split of 80/20. 
+- data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. 
+
+The pipeline involves the linear regression model.
 <br>
 The R-squared for both training and testing sets are about 84%. Thus, there is no overfitting in our machine learning model.
 

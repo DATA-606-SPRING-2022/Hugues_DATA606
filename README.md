@@ -62,7 +62,7 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 
 ### Machine Learning Model
 
-The target variable is ConfirmedCases. And other remaining attributes are considered as inputs variables for our machine learning regression models.
+The target variable is ConfirmedCases. And other remaining attributes, except string objects type representing countries name and codes are considered as inputs variables for our machine learning regression models. 
 
 #### Ordinary Least-Squares (OLS) regression model
 ![OLS](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/OLS.png?raw=true)

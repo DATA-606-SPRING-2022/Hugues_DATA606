@@ -12,8 +12,7 @@ Since March 2020, Coronavirus disease (COVID-19) was declared as a global pandem
 As of today, the COVID-19 infections are over a half billion cases and the death toll is about 6 millions worldwide.
 Several restrictions and policies were imposed by countries to minimize the infections and deaths.
 
-Being able to understand drivers and predict Coronavirus disease confirmed cases can be used in policy and decisions making regarding the restrictions or lockdown measures. 
-In addition, citizens can understand how governments are working in terms of fighting against COVID-19 in a consistent way. 
+Being able to understand drivers and predict Coronavirus disease confirmed cases can be used in policy and decisions making regarding the restrictions or lockdown measures. In addition, citizens can understand how governments are working in terms of fighting against COVID-19 in a consistent way. 
 Form the government perspective, being able to predict COVID confirmed cases could be used to measures what policy responses are effective.
 
 The goal of this study is to use machine learning model with a focus to understand effectiveness of the governmental policy responses to COVID-19 worldwide with latest information.
@@ -47,12 +46,12 @@ Those COVID-19 policy responses are into grouped five categories:
 3. H - health system policies
 4. V - vaccination policies
 5. M - miscellaneous indicator
-<br>
+<p>
 There is a strigency index where a higher score indicates a stricter government response (i.e. 100 = strictest response) based on policy indices. 
 However, the stringency index cannot say whether a government's policy has been implemented effectively.
-<br>
 This data also include the number of reported Covid-19 confirmed cases and deaths in each country. 
 These are collected by the [Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) data repository for all countries and the US States.
+</p>
 
 ### Exploratory Data Analysis (EDA)
 
@@ -67,6 +66,7 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 
 #### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
 ![Table](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
+<br>
 A higher position in stringency index does not necessarily mean that a country's response is better in fighting with COVID than others lower on the stringency index. It just indicates how strict a country is in terms of policy response.
 <br>
 Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic.

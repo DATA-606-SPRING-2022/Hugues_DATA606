@@ -87,7 +87,7 @@ The residuals has a near-normal distribution. Therefore, there is no concerns wi
 - Data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. 
 - The pipeline involves the linear regression model.
 - The R-squared for both training and testing sets are about 84%. 
-- No identication of model overfitting.
+- No indication of model overfitting.
 
 #### Ridge Regression for model regularization
 ![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)

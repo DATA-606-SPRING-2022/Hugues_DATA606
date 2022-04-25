@@ -25,12 +25,6 @@ This study will focus on answering the following questions:
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?
 
-
-### Unit of Analysis
-
-Overall, we have 186 countries worldwide in this dataset. Each country is represented in the data by its name.
-
-
 ### Dataset Description
 
 - The timeserie data being explored comes from [COVID-19 GOVERNMENT RESPONSE TRACKER](https://github.com/OxCGRT/covid-policy-tracker) presented by the Oxford Covid-19 Government Response Tracker (OxCGRT). 
@@ -43,9 +37,9 @@ H: health system policies,
 V: vaccination policies,
 M: miscellaneous indicator.
 There is a strigency index where a higher score indicates a stricter government response (i.e. 100 = strictest response) based on policy indices. 
-However, the stringency index cannot say whether a government's policy has been implemented effectively.
+However, the stringency index cannot say whether a government's policy has been implemented effectively over 180 countries worldwide.
 
-- This data also include the number of reported Covid-19 confirmed cases and deaths in each country. 
+- This data also include the number of reported Covid-19 confirmed cases and deaths in each country around the globe. 
 These are collected by the [Center for Systems Science and Engineering (CSSE) at Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19) data repository for all countries and the US States.
 </p>
 

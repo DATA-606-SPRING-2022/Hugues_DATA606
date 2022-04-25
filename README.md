@@ -102,10 +102,11 @@ The R-squared for both training and testing sets are about 84%. Thus, there is n
 Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
 
 ### Interpretations and Conclusions
-Based on the finding of this study, we can return to the hypothesis questions:
+Based on the findings of this study, we can return to the hypothesis questions:
 <p>
 1. Have policy responses contributed in preventing COVID-19 over the past 2 years?
-Some of policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
+<br>
+  Some of the policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
 </p>
 <p>
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?

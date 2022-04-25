@@ -63,6 +63,9 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 ![Trends1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCases.png?raw=true)
 #### Trends of top 10 countries with high confirmed cases and their given stringency index
 ![Trends2](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10StringencyIndex.png?raw=true)
+<br>
+A higher position in stringency index does not necessarily mean that a country's response is better in fighting with COVID than others lower on the stringency index. It just indicates how strict a country is in terms of policy response.
+
 
 #### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
 ![Table]
@@ -70,17 +73,31 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 
 ### Machine Learning Model
 
+I used machine learning regression models. The target variable is ConfirmedCases. And other remaining attributes are considered as inputs variables.
+
 #### Ordinary Least-Squares (OLS) regression model
 ![OLS](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/OLS.png?raw=true)
+<br>
+According to the OLS Model results:
 
+- Overall, OLS Model  𝑅2  is 0.843, so our model is capturing 84% of the variance in ConfirmedCases.
+- The attributes used in this dataset are statistically significant except H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs since they have a greater than the usual significance level 0.05.
+- ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people are the main strongest drivers of ConfirmedCases predictions because of their high t-statistics.
 
 #### Residuals
 ![Residuals1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/EvaluateResiduals.png?raw=true)
+<br>
+![Residuals1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/ResidualDistribution.png?raw=true)
+<br>
+The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
 
 #### Linear Regression Model Pipeline
+With sklearn libaries, I performed a training and testing set split of 80/20. Then, the data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables.The pipeline involves the linear regression model.
+<br>
+The $R^2$ for both training and testing sets are about 84%. Thus, there is no overfitting in our machine learning model.
 
 #### Ridge Regression for model regularization
-
+![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)
 
 
 ### Interpretations and Conclusions

@@ -80,7 +80,7 @@ According to the OLS Model results:
 `V2C_Vaccine age eligibility/availability age floor (at risk summary)_70-74 yrs`,
 `V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs`,
 `V2C_Vaccine age eligibility/availability age floor (at risk summary)_80+ yrs` since they have a greater than the usual significance level 0.05.
-- ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people are the main strongest drivers of ConfirmedCases predictions because of their high t-statistics.
+- `V4_Mandatory Vaccination (summary)`, `H2_Testing policy`, `H8_Protection of elderly people` are the main strongest drivers of ConfirmedCases predictions because of their high t-statistics.
 </p>
 
 #### Residuals
@@ -100,25 +100,43 @@ No indication of model overfitting.
 #### Ridge Regression for model regularization
 ![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)
 
-- Using the ridge regression model, the  𝑅-squared  is still around 84% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. In conclusion, OLS model was also good by itself.
+- Using the ridge regression model, the  𝑅-squared  is still around 14% for both training and testing data sets. Therefore, Ridge regression does not seem to change the model for the better fitting. 
+
+#### XGBoost for Regression Model
+- XGBoost is a gradient boosting algorithm. It provides parallel boosting trees algorithm that can solve Machine Learning tasks. 
+- This XGBRegressor model is using 100 boosting trees (n_estimators=100).
+- Below is the top 20 features of importance according to XGBRregressor Model:
+![XGBRegressor](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/XGBRegressor.png?raw=true)
 
 ### Interpretations and Conclusions
 Based on the findings of this study, we can return to the hypothesis questions:
 <p>
 1. Have policy responses contributed in preventing COVID-19 over the past 2 years?
 <br>
-  Some of the policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
+  Most of the policy responses contributed in minimizing the number of coronavirus disease infection rates, especially in the early phase of the pandemic. The stringency index was higher when the countries started imposing the lockdown measures after seeing the rise in infections and daily deaths during the pandemic.
 </p>
 <p>
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?
 <br>
-Ordinary Least-Squares (OLS) regression model used for this project show that most the attributes or columns from this dataset are statistically significant, except  
-H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs.
+Ordinary Least-Squares (OLS) regression model used for this project show that most the attributes or columns from this dataset were statistically significant, except  
+`C6_Flag`, `E4_International support`, `H5_Investment in vaccines`, `M1_Wildcard`, `V2D_Medically/ clinically vulnerable (Non-elderly)`,`StringencyIndexForDisplay`,
+`StringencyLegacyIndex`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_30-34 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_50-54 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_65-69 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_70-74 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_30-34 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_50-54 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_60-64 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_70-74 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_80+ yrs`
 </p>
 <p>
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?
 <br>
 The COVID-19 policy responses drivers in predicting the confirmed cases are: ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people.
+The safety measures, such as mandatory vaccination, testing, and strengthening the immunization among the elders are critical to saving lives and recovering from COVID.
 </p>
 
 ### References

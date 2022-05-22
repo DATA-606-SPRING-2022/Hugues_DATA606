@@ -118,19 +118,7 @@ Based on the findings of this study, we can return to the hypothesis questions:
 <p>
 2. Are the collected COVID-19 policy responses statistically significant in predicting the infections?
 <br>
-Ordinary Least-Squares (OLS) regression model used for this project show that most the attributes or columns from this dataset were statistically significant, except  
-`C6_Flag`, `E4_International support`, `H5_Investment in vaccines`, `M1_Wildcard`, `V2D_Medically/ clinically vulnerable (Non-elderly)`,`StringencyIndexForDisplay`,
-`StringencyLegacyIndex`,
-`V2B_Vaccine age eligibility/availability age floor (general population summary)_30-34 yrs`,
-`V2B_Vaccine age eligibility/availability age floor (general population summary)_50-54 yrs`,
-`V2B_Vaccine age eligibility/availability age floor (general population summary)_65-69 yrs`,
-`V2B_Vaccine age eligibility/availability age floor (general population summary)_70-74 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_30-34 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_50-54 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_60-64 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_70-74 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs`,
-`V2C_Vaccine age eligibility/availability age floor (at risk summary)_80+ yrs`
+Ordinary Least-Squares (OLS) regression model used for this project show that not all the attributes or columns from this dataset were statistically significant. 
 </p>
 <p>
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?

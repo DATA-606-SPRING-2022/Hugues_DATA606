@@ -49,7 +49,7 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 ![Heatmap](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Heatmap.png?raw=true)
 - Obviously, the stringency index is correlated with the government policy responses used in this dataset, such as public events cancelation, school closing, and other restriction measures.
 
-#### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index so far
+#### Table of Top 10 countries by COVID-19 Cases and their highest Stringency Index 
 ![Table](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/Top10ConfirmedCasesandStringencyIndex.png?raw=true)
 - A higher position in stringency index does not necessarily mean that a country's response is better in fighting with COVID than others lower on the stringency index. It is an indication of how strict a country is in terms of policy response.
 
@@ -105,7 +105,7 @@ No indication of model overfitting.
 #### XGBoost for Regression Model
 - XGBoost is a gradient boosting algorithm. It provides parallel boosting trees algorithm that can solve Machine Learning tasks. 
 - This XGBRegressor model is using 100 boosting trees (n_estimators=100).
-- Below is the top 20 features of importance according to XGBRregressor Model:
+- Below is the top features of importance according to XGBRregressor Model:
 ![XGBRegressor](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/XGBRegressor.png?raw=true)
 
 ### Interpretations and Conclusions

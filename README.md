@@ -56,8 +56,8 @@ These are collected by the [Center for Systems Science and Engineering (CSSE) at
 ### Machine Learning Model
 - Target: `ConfirmedCases`. 
 - Predictors variables: all remaining attributes, except string objects type representing countries names and codes which are excluded from the set. 
-Date is also dropped from our model training set.
-ConfirmedDeaths is correlated to ConfirmedCases, so it is not necessary for our model since we are looking to study the COVID-19 policy responses.
+`Date` is also dropped from our model training set.
+`ConfirmedDeaths` is correlated to ConfirmedCases, so it is not necessary for our model since we are looking to study the COVID-19 policy responses.
 ![image](https://user-images.githubusercontent.com/59127471/169708412-a2aaab75-a508-406e-9aec-370b5c902ef8.png)
 
 
@@ -67,24 +67,35 @@ ConfirmedDeaths is correlated to ConfirmedCases, so it is not necessary for our 
 <p>
 According to the OLS Model results:
 
-- Overall, OLS Model  𝑅-ssquared  is 0.843, so our model is capturing 84% of the variance in ConfirmedCases.
-- The attributes used in this dataset are statistically significant except H1_Flag, H7_Flag, V1_Vaccine Prioritisation (summary), V2G_Frontline workers  (healthcare), V2B_Vaccine age eligibility/availability age floor (general population summary)_55-59 yrs, V2B_Vaccine age eligibility/availability age floor (general population summary)_80+ yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_16-19 yrs, V2C_Vaccine age eligibility/availability age floor (at risk summary)_55-59 yrs, and V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs since they have a greater than the usual significance level 0.05.
+- Overall, OLS Model  𝑅-ssquared  is 0.136, so our model is capturing around 14% of the variance in `ConfirmedCases`.
+- The attributes used in this dataset are statistically significant except `C6_Flag`, `E4_International support`, `H5_Investment in vaccines`, `M1_Wildcard`, `V2D_Medically/ clinically vulnerable (Non-elderly)`,`StringencyIndexForDisplay`,
+`StringencyLegacyIndex`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_30-34 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_50-54 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_65-69 yrs`,
+`V2B_Vaccine age eligibility/availability age floor (general population summary)_70-74 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_30-34 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_50-54 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_60-64 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_70-74 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_75-79 yrs`,
+`V2C_Vaccine age eligibility/availability age floor (at risk summary)_80+ yrs` since they have a greater than the usual significance level 0.05.
 - ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people are the main strongest drivers of ConfirmedCases predictions because of their high t-statistics.
 </p>
 
 #### Residuals
-![Residuals1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/EvaluateResiduals.png?raw=true)
-<br>
 ![Residuals1](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/ResidualDistribution.png?raw=true)
-<br>
-The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
+- The residuals has a near-normal distribution. Therefore, there is no concerns with the residuals.
 
 #### Linear Regression Model
-- With sklearn libaries, I performed training and testing sets split of 80/20. 
-- Data preprocessing includes standardization of numerical values, transformation categorical variables into dummy variables. 
-- The pipeline involves the linear regression model.
-- The R-squared for both training and testing sets are about 84%. 
-- No indication of model overfitting.
+- The 80% of data is used for training and the rest 20% for testing.
+- Data preprocessing: 
+Standardization of numerical values,
+Transformation of categorical variables into dummy variables.
+![LinearRegression](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/LinearRegression.png?raw=true)
+- The 𝑅² scores for both training and testing sets are near 14%.
+No indication of model overfitting.
+
 
 #### Ridge Regression for model regularization
 ![Ridge](https://github.com/IradukundaHN/Hugues_DATA606/blob/main/Images/RidgeRegression.png?raw=true)

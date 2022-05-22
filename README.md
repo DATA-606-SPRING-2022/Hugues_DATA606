@@ -135,7 +135,7 @@ Ordinary Least-Squares (OLS) regression model used for this project show that mo
 <p>
 3. What are COVID-19 policy responses drivers in predicting the confirmed cases?
 <br>
-The COVID-19 policy responses drivers in predicting the confirmed cases are: ConfirmedDeaths, H2_Testing policy, V4_Mandatory Vaccination (summary), H8_Protection of elderly people.
+The COVID-19 policy responses drivers in predicting the confirmed cases are: `H2_Testing policy`, `V4_Mandatory Vaccination (summary)`, `H8_Protection of elderly people`.
 The safety measures, such as mandatory vaccination, testing, and strengthening the immunization among the elders are critical to saving lives and recovering from COVID.
 </p>
 
